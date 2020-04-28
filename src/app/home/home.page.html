@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let p of products"> <strong>Titre de film</strong>:{{p.title}} 
+      <strong>Year de Film</strong>{{p.year}}
+      <strong>Type de film</strong>{{p.type}}
+    </ion-item>
+   
+
+  </ion-list>
+
+</ion-content>
